@@ -18,11 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
     rgb(var(--background-start-rgb));
 }
 
@@ -30,4 +26,24 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.gradient-border {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff; /* Text color */
+  background-color: transparent; /* Button background color */
+  border: 2px solid transparent;
+  /* Define the gradient as border image */
+  border-image-source: linear-gradient(106.29deg, #2e7cf6 0%, #00f0ff 100%);
+  border-image-slice: 1;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 4px;
+  /* Optional: Adding some hover effect */
+}
+
+.gradient-border:hover {
+  background-color: #079cd9; /* Color changes on hover */
+  color: #000000; /* Text color changes on hover */
 }
