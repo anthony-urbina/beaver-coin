@@ -2,18 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+} */
+
+button {
+  color: black;
 }
 
 body {
@@ -31,7 +35,8 @@ body {
 .gradient-border {
   padding: 10px 20px;
   font-size: 16px;
-  color: #ffffff; /* Text color */
+  color: black; /* Text color */
+  font-weight: 500;
   background-color: transparent; /* Button background color */
   border: 2px solid transparent;
   /* Define the gradient as border image */
@@ -45,5 +50,5 @@ body {
 
 .gradient-border:hover {
   background-color: #079cd9; /* Color changes on hover */
-  color: #000000; /* Text color changes on hover */
+  color: white; /* Text color changes on hover */
 }
