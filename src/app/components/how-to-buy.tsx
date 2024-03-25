@@ -51,11 +51,11 @@ const steps = [
           target='_blank'
           className='underline'
         >
-          IncrementFi
+          Increment
         </a>
       </p>
     ),
-    description: "On IncrementFi, click 'Swap', select FLOW for PUSS, and click 'Swap'",
+    description: "On Increment, click 'Swap', select FLOW for PUSS, and click 'Swap'",
     image: <Increment />,
   },
 ];
