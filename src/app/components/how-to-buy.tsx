@@ -33,7 +33,7 @@ export const BlueSection = ({ children }: { children: React.ReactNode }) => {
 const steps = [
   {
     title: "Create a Wallet",
-    description: "Install the Flow wallet app/extension",
+    description: "Install the Flow wallet app or extension",
     image: <FlowWallet />,
   },
   {
