@@ -24,6 +24,7 @@ export const Navbar = () => {
             <Li>
               <a
                 href='https://app.increment.fi/swap?in=A.1654653399040a61.FlowToken&out=A.687e1a7aef17b78b.Beaver'
+                target='_blank'
                 className='gradient-border'
               >
                 Buy
@@ -53,6 +54,7 @@ export const Navbar = () => {
             <Li>
               <a
                 href='https://app.increment.fi/swap?in=A.1654653399040a61.FlowToken&out=A.687e1a7aef17b78b.Beaver'
+                target='_blank'
                 className='gradient-border'
               >
                 Buy
