@@ -11,7 +11,7 @@ export const Tokenomics = () => {
           <TokenomicsIcon className='md:w-[554px] md:h-[554px] w-[300px] h-[300px]' />
         </div>
         <div className='basis-6/12 flex flex-col gap-y-5'>
-          <ul className='list-disc text-2xl'>
+          <ul className='list-disc md:text-2xl text-lg'>
             <li>69.00B $PUSS</li>
             <li>90% in circulation</li>
             <li>10% reserved for CEXs</li>
