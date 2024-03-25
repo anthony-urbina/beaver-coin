@@ -24,7 +24,7 @@ export const HowToBuy = () => {
 
 export const BlueSection = ({ children }: { children: React.ReactNode }) => {
   return (
-    <section className='w-full flex flex-col items-center justify-center gap-y-4 bg-blue py-12 px-5 rounded-[1.25rem] text-3xl'>
+    <section className='w-full flex flex-col items-center justify-center gap-y-4 bg-blue p-12 rounded-[1.25rem] text-3xl'>
       {children}
     </section>
   );
