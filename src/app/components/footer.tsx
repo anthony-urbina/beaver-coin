@@ -3,8 +3,8 @@ import { HamburgerMenu } from "./icons/hamburger-menu";
 
 export const Footer = () => {
   return (
-    <section className='w-full flex items-center justify-between'>
-      <div className='container flex items-center justify-between mx-auto'>
+    <section className='w-full flex  items-center justify-between pt-32 md:pt-0'>
+      <div className='container flex flex-col md:flex-row items-center md:justify-between mx-auto'>
         <section className='text-xl flex gap-x-2 md:gap-x-3 items-center font-medium'>
           <p>&copy; Beaver Coin 2024</p>
         </section>

@@ -7,7 +7,7 @@ import { Footer } from "./components/footer";
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-4 md:p-16 relative'>
+    <main className='flex flex-col p-4 md:p-16 relative'>
       <div
         className='absolute top-0 left-0 w-full h-96 -z-10'
         style={{
@@ -22,7 +22,7 @@ export default function Home() {
         }}
       />
 
-      <section className='container flex flex-col gap-y-40 '>
+      <section className='container flex flex-col md:gap-y-40 gap-y-16'>
         <Navbar />
         <HeroSection />
         <HowToBuy />

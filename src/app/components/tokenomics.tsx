@@ -4,11 +4,11 @@ import { TokenomicsIcon } from "./icons/tokenomics";
 export const Tokenomics = () => {
   return (
     <section className='w-full flex-col flex gap-y-8 items-center' id='tokenomics'>
-      <h1 className='font-bold text-5xl'>Tokenomics</h1>
+      <h1 className='font-bold md:text-5xl text-4xl'>Tokenomics</h1>
 
-      <div className='flex items-center'>
-        <div className='basis-2/5 relative h-auto'>
-          <TokenomicsIcon />
+      <div className='md:flex md:items-center'>
+        <div className='basis-2/5 relative h-auto w-auto'>
+          <TokenomicsIcon className='md:w-[554px] md:h-[554px] w-[300px] h-[300px]' />
         </div>
         <div className='basis-6/12 flex flex-col gap-y-5'>
           <ul className='list-disc text-2xl'>

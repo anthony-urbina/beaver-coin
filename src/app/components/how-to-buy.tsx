@@ -5,13 +5,13 @@ import { Wallet } from "./icons/wallet";
 
 export const HowToBuy = () => {
   return (
-    <section className='w-full flex-col flex gap-y-24 items-center' id='how-to-buy'>
-      <h1 className='font-bold text-5xl'>How to Buy</h1>
+    <section className='w-full flex-col flex md:gap-y-24 gap-y-12 items-center' id='how-to-buy'>
+      <h1 className='font-bold md:text-5xl text-3xl'>How to Buy</h1>
       <div className='flex flex-col gap-y-4 w-full'>
         {steps.map((step, idx) => {
           return (
             <BlueSection key={`${step.title}-${idx}`}>
-              <h2 className='text-4xl font-bold'>{step.title}</h2>
+              <h2 className='md:text-4xl text-2xl font-bold'>{step.title}</h2>
               <p>{step.description}</p>
               {step.image}
             </BlueSection>
@@ -24,7 +24,7 @@ export const HowToBuy = () => {
 
 export const BlueSection = ({ children }: { children: React.ReactNode }) => {
   return (
-    <section className='w-full flex flex-col items-center justify-center gap-y-4 bg-blue p-12 rounded-[1.25rem] text-3xl'>
+    <section className='w-full flex flex-col items-center justify-center md:gap-y-4 gap-y-2 bg-blue md:p-12 p-8 text-xl rounded-[1.25rem] md:text-3xl'>
       {children}
     </section>
   );

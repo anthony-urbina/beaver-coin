@@ -1,8 +1,7 @@
-export const TokenomicsIcon = () => {
+export const TokenomicsIcon = ({ className }: { className: string }) => {
   return (
     <svg
-      width='554'
-      height='554'
+      className={className}
       viewBox='0 0 554 554'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
