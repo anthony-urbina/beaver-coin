@@ -38,7 +38,7 @@ const steps = [
   },
   {
     title: "Load Your Wallet",
-    description: "Buy Flow from a trusted exchange like Coinbase or Binance and send it to your Flow wallet",
+    description: "Buy Flow from a trusted exchange and send it to your Flow wallet",
     image: <Flow />,
   },
 
