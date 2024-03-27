@@ -17,8 +17,8 @@ export const Tokenomics = () => {
             <li>10% reserved for CEXs</li>
             <li>No presale</li>
             <li>No BS</li>
-            <li className='pt-8 absolute list-none'>
-              <a href='https://contractbrowser.com/A.687e1a7aef17b78b.Beaver'>CA: A.687e1a7aef17b78b.Beaver</a>
+            <li className='pt-8 absolute list-none underline'>
+              <a href='https://contractbrowser.com/A.687e1a7aef17b78b.Beaver' target='_blank' >CA: A.687e1a7aef17b78b.Beaver</a>
             </li>
           </ul>
         </div>
