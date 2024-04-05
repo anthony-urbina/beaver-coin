@@ -12,9 +12,9 @@ export const Tokenomics = () => {
         </div>
         <div className='basis-6/12 flex flex-col gap-y-5'>
           <ul className='list-disc md:text-2xl text-lg'>
-            <li>69.00B $PUSS</li>
-            <li>90% in circulation</li>
-            <li>10% reserved for CEXs</li>
+            <li>1B $PUSS</li>
+            <li>70% in circulation</li>
+            <li>30% reserved for TBD (;</li>
             <li>No presale</li>
             <li>No BS</li>
             <li className='pt-8 absolute list-none underline'>
